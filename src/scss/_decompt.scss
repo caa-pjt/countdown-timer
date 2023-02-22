@@ -1,0 +1,40 @@
+.decompt{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    div.bloc {
+        
+        color: var(--white);
+        padding: 10px 20px 0px 20px;
+        margin: 10px;
+        border-radius: 20px;
+        border: 2px solid var(--white);
+        
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        
+        strong {
+            font-size: 3em;
+            font-weight: 500;
+        }
+        
+        span{
+            padding: 5px;
+            margin: 0px 10px;
+        }
+        
+        p {
+            font-weight: 100;
+            text-transform: uppercase;
+            margin-top: 5px;
+        }
+    }
+}
+@media screen and (max-width: 540px){
+    
+
+    
+}
