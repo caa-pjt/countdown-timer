@@ -1,20 +1,25 @@
-.decompt{
+.contdown-container{
     
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+.contdown {
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     
     div.bloc {
         
-        color: var(--white);
-        padding: 10px 20px 0px 20px;
+        padding: 20px 20px 0px 20px;
         margin: 10px;
         border-radius: 20px;
         border: 2px solid var(--white);
-        
         display: flex;
-        justify-content: space-around;
         flex-direction: column;
+        min-width: 136px;
+        text-transform: uppercase;
         
         strong {
             font-size: 3em;
@@ -24,6 +29,8 @@
         span{
             padding: 5px;
             margin: 0px 10px;
+            font-size: 0.8em;
+            text-transform: uppercase;
         }
         
         p {
@@ -34,7 +41,15 @@
     }
 }
 @media screen and (max-width: 540px){
-    
+    .contdown {
+        flex-direction: column;
+    }
+    .contdown-container {
+        align-items: center;
+    }
 
-    
+    .contdown div.bloc {
+        max-width: 8.8em;
+    }
+
 }
