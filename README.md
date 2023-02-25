@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/caa-pjt/countdown-timer/tree/main/src/images/countDownTimer.png" alt="JS - CountDownTimer. Creat a count down timer without dependencies!"/>
+    <img src="/src/images/countDownTimer.png" alt="JS - CountDownTimer. Creat a count down timer without dependencies!"/>
 </div>
 
 # countdown-timer
