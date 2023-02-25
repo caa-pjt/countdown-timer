@@ -1,3 +1,7 @@
+<div align="center">
+    <img src="https://github.com/caa-pjt/countdown-timer/tree/main/src/images/countDownTimer.png" alt="JS - CountDownTimer. Creat a count down timer without dependencies!"/>
+</div>
+
 # countdown-timer
 A javascript countdown clock or timer. That is simple to use in any project or on any website.
 

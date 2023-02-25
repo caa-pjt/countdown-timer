@@ -8,7 +8,7 @@
 export class ContDownTimer {
 
     options = {
-        language : "en"
+        language : "fr"
     }
     
     /**
@@ -18,7 +18,7 @@ export class ContDownTimer {
     */
     constructor (options, cb){
 
-        this.options = Object.assign({}, options, this.options)
+        this.options = Object.assign({}, this.options, options)
 
         this.cb = cb
 
